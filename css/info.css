@@ -1,0 +1,63 @@
+.info {
+    margin-top: 32px;
+    width: 534px;
+    height: 408px;
+}
+
+.info__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.info__city {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #F5F4F4;
+}
+
+.info__date {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F5F4F4;
+    text-align: center;
+}
+
+.info__temperature {
+    margin-top: 64px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 112px;
+    color: #F5F4F4;
+}
+
+.info__other-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 64px;
+}
+
+.info__weather-descr {
+    display: flex;
+    align-items: center;
+}
+
+.info__weather-text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F5F4F4;
+}
+
+.info__feeling {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F5F4F4;
+}

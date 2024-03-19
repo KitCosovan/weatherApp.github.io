@@ -1,0 +1,60 @@
+#pressure {
+    -webkit-appearance: none;
+    width: 126px;
+    height: 8px;
+    background: #DADADA;
+    border-radius: 8px;
+    outline: none;
+}
+  
+#pressure::-webkit-slider-runnable-track {
+    width: 126px;
+    height: 8px;
+    background: radial-gradient(circle, #8A8A8A, #DADADA);
+    border-radius: 8px;
+    position: relative;
+}
+
+#pressure::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #F5F4F4;
+    border-radius: 50%;
+    left: 92px;
+}
+
+#pressure::-moz-range-track {
+    width: 126px;
+    height: 8px;
+    background: radial-gradient(circle, #8A8A8A, #DADADA);
+    border-radius: 8px;
+    position: relative;
+}
+
+#pressure::-moz-range-thumb {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #F5F4F4;
+    border-radius: 50%;
+    left: 92px;
+}
+
+#pressure::-ms-track {
+    width: 126px;
+    height: 8px;
+    background: radial-gradient(circle, #8A8A8A, #DADADA);
+    border-radius: 8px;
+    position: relative;
+}
+
+#pressure::-ms-thumb {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #F5F4F4;
+    border-radius: 50%;
+    left: 92px;
+}

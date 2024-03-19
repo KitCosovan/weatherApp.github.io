@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherApp</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="blur-window">
+            <header class="header">
+                <div class="header__logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <div class="header__search">
+                    <div class="header__search-input">
+                        <input type="text" placeholder="Поиск по городу" id="search">
+                    </div>
+                    <div class="header__search-icon">
+                        <img src="./img/search-icon.svg" alt="search-icon">
+                    </div>
+                </div>
+            </header>
+            <div class="main">
+                <aside class="info">
+                    <div class="info__main">
+                        <div class="info__city">Москва</div>
+                        <div class="info__date">Суббота, 06 января <br> 11:29</div>
+                    </div>
+                    <div class="info__temperature">-7°</div>
+                    <div class="info__other-info">
+                        <div class="info__weather-descr">
+                            <div class="info__weather-icon">
+                                <img src="./img/weather-icon.png" alt="weather-icon">
+                            </div>
+                            <div class="info__weather-text">Облачно</div>
+                        </div>
+                        <div class="info__feeling">Ощущается как -11°</div>
+                    </div>
+                </aside>
+                <section class="cards">
+                    <div class="cards__card">
+                        <div class="cards__title">Влажность</div>
+                        <div class="cards__icon">
+                            <img src="./img/humidity.svg" alt="humidity">
+                        </div>
+                        <div class="cards__data">
+                            <div class="cards__value" id="humidity-value"></div>
+                            <div class="cards__unit" id="humidity-unit"></div>
+                        </div>
+                        <input type="range" id="humidity" disabled>
+                        <div class="cards__range">
+                            <span>0%</span>
+                            <span>100%</span>
+                        </div>
+                    </div>
+                    <div class="cards__card">
+                        <div class="cards__title">Давление</div>
+                        <div class="cards__icon">
+                            <img src="./img/pressure.svg" alt="pressure">
+                        </div>
+                        <div class="cards__value" id="pressure-value"></div>
+                        <input type="range" id="pressure" disabled>
+                        <div class="cards__grade">Повышенное</div>
+                    </div>
+                    <div class="cards__card">
+                        <div class="cards__title">Видимость</div>
+                        <div class="cards__icon">
+                            <img src="./img/visibility.svg" alt="visibility">
+                        </div>
+                        <div class="cards__data">
+                            <div class="cards__value" id="visibility-value"></div>
+                            <div class="cards__unit" id="visibility-unit"></div>
+                        </div>
+                        <input type="range" id="visibility" disabled>
+                        <div class="cards__grade">Нормальная</div>
+                    </div>
+                    <div class="cards__card">
+                        <div class="cards__title">Рассвет</div>
+                        <div class="cards__icon">
+                            <img src="./img/sunrise.svg" alt="sunrise">
+                        </div>
+                        <div class="cards__time" id="sunrise-time"></div>
+                        <div class="cards__since" id="sunrise-since"></div>
+                    </div>
+                    <div class="cards__card">
+                        <div class="cards__title">Закат</div>
+                        <div class="cards__icon">
+                            <img src="./img/sunset.svg" alt="sunset">
+                        </div>
+                        <div class="cards__time" id="sunset-time"></div>
+                        <div class="cards__since" id="sunset-since"></div>
+                    </div>
+                    <div class="cards__card">
+                        <div class="cards__title">Сила ветра</div>
+                        <div class="cards__icon">
+                            <img src="./img/wind.svg" alt="wind">
+                        </div>
+                        <div class="cards__data">
+                            <div class="cards__value" id="wind-value"></div>
+                            <div class="cards__unit" id="wind-unit"></div>
+                        </div>
+                        <div class="cards__direction" id="wind-direction"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

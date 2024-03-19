@@ -1,0 +1,29 @@
+@import url('./css/header.css');
+@import url('./css/info.css');
+@import url('./css/cards.css');
+
+body {
+    background-image: url('./img/main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    min-width: 1280px;
+}
+
+.container {
+    width: 1120px;
+    margin: 40px auto;
+}
+
+.blur-window {
+    width: 100%;
+    height: 860px;
+    backdrop-filter: blur(25px);
+}
+
+.main {
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+}

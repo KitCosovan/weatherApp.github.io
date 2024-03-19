@@ -1,0 +1,26 @@
+{
+    "humidity": {
+        "value": 75,
+        "unit": "%"
+    },
+    "pressure": {
+        "value": 761
+    },
+    "visibility": {
+        "value": 28,
+        "unit": "км"
+    },
+    "sunrise": {
+        "time": "8:42",
+        "since": "02:47"
+    },
+    "sunset": {
+        "time": "16:37",
+        "since": "05:08"
+    },
+    "wind": {
+        "speed": 2,
+        "unit": "м/с",
+        "direction": "северо-западный"
+    }
+}
