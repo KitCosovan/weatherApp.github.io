@@ -24,6 +24,7 @@
     font-size: 20px;
     color: #F5F4F4;
     text-align: center;
+    font-variant-numeric: lining-nums;
 }
 
 .info__temperature {
@@ -33,6 +34,7 @@
     font-weight: 700;
     font-size: 112px;
     color: #F5F4F4;
+    font-variant-numeric: lining-nums;
 }
 
 .info__other-info {
@@ -60,4 +62,5 @@
     font-weight: 400;
     font-size: 20px;
     color: #F5F4F4;
+    font-variant-numeric: lining-nums;
 }
