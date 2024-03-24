@@ -109,9 +109,47 @@
                     </div>
                 </section>
             </div>
+            <section class="future-data">
+                <div class="future-data__info">
+                    <div class="future-data__title">Прогноз:</div>
+                    <div class="future-data__btns">
+                        <button class="future-data__btn active" id="time-data">на 24 часа</button>
+                        <button class="future-data__btn" id="day-data">на 5 дней</button>
+                    </div>
+                </div>
+                <div class="future-data__slider">
+                    <div class="future-data__arrow future-data__arrow_back">
+                        <img src="./img/arrow-back.svg" alt="arrow-back">
+                    </div>
+                    <div class="future-data__slides"></div>
+                    <div class="future-data__arrow future-data__arrow_forward">
+                        <img src="./img/arrow-forward.svg" alt="arrow-forward">
+                    </div>
+                </div>
+            </section>
+            <footer>
+                Проект выполнил разработчик - <a href="https://github.com/KitCosovan">Кит Косован</a>
+            </footer>
         </div>
     </div>
     
-    <script src="script.js"></script>
+    <script src="./scripts/search-input.js"></script>
+    <script src="./scripts/meteo-data-fetch.js"></script>
+    <script>
+        hourBtn = document.querySelector('#time-data');
+        dayBtn = document.querySelector('#day-data');
+
+        function eventData(activeBtn, nonActiveBtn) {
+            activeBtn.addEventListener('click', function() {
+                this.classList.add('active');
+                nonActiveBtn.classList.remove('active');
+            })
+        }
+
+        eventData(hourBtn, dayBtn);
+        eventData(dayBtn, hourBtn);
+    </script>
+    <script src="./scripts/24h-data-fetch.js" defer></script>
+    <script src="./scripts/5d-data-fetch.js" defer></script>
 </body>
 </html>

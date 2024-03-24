@@ -1,12 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const inputElement = document.querySelector('#search');
-
-    inputElement.addEventListener('input', function(event) {
-        const inputValue = event.target.value;
-        console.log('Введено: ', inputValue);
-    });
-
-
     fetch('db/meteo-data.json')
         .then(response => response.json())
         .then(data => {
@@ -54,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function displayData(humidity, pressure, visibility, sunriseTime, timeSinceSunrise, sunsetTime, timeSinceSunset, wind) {
-        
+
         document.querySelector('#humidity-value').innerText = `${humidity.value}`;
         document.querySelector('#humidity-unit').innerText = `${humidity.unit}`;
         document.querySelector('#pressure-value').innerText = `${pressure.value}`;

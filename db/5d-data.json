@@ -1,0 +1,23 @@
+{
+    "day1": {
+        "day": "Вс.",
+        "date": "07 янв.",
+        "icon": "./img/cloudy.png",
+        "low-level": "-17°",
+        "high-level": "-11°"
+    },
+    "day2": {
+        "day": "Пн.",
+        "date": "08 янв.",
+        "icon": "./img/cloudy.png",
+        "low-level": "-16°",
+        "high-level": "-8°"
+    },
+    "day3": {
+        "day": "Вт.",
+        "date": "09 янв.",
+        "icon": "./img/cloudy.png",
+        "low-level": "-8°",
+        "high-level": "-2°"
+    }
+}

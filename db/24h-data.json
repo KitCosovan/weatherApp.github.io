@@ -1,0 +1,27 @@
+{
+    "12:00": {
+        "time": "12:00",
+        "icon": "./img/weather-icon.png",
+        "weather": "-7°"
+    },
+    "15:00": {
+        "time": "15:00",
+        "icon": "./img/weather-icon.png",
+        "weather": "-5°"
+    },
+    "18:00": {
+        "time": "18:00",
+        "icon": "./img/weather-icon.png",
+        "weather": "-7°"
+    },
+    "21:00": {
+        "time": "21:00",
+        "icon": "./img/weather-icon.png",
+        "weather": "-9°"
+    },
+    "00:00": {
+        "time": "00:00",
+        "icon": "./img/weather-icon.png",
+        "weather": "-11°"
+    }
+}
